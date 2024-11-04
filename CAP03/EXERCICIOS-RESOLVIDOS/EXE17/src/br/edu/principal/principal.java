@@ -18,7 +18,6 @@ public class principal {
 		saldo = salario - cheque1 - cheque2 - cpmf1 - cpmf2;
 		
 		System.out.println("O saldo é igual a: " + saldo);
-
 	}
 
 }
