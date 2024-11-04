@@ -10,12 +10,12 @@ public class principal {
         double seno;
         
 
-        radiano = ang * 3.14 / 180; 
-        seno = radiano;
+        radiano = ang * Math.PI / 180; 
+        seno = Math.sin(radiano);
         
         escada = alt / seno;
         
-        escada = (int)(escada * 100 + 0.5) / 100.0;
+        escada = Math.round(escada * 100.0) / 100.0;
         
         System.out.println("O comprimento da escada é de: " + escada + " metros");
 	}
