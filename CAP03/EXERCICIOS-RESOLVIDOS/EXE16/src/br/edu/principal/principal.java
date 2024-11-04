@@ -3,20 +3,17 @@ package br.edu.principal;
 public class principal {
 
 	public static void main(String[] args) {
-		double p_fab = 1200;
-    	double perc_d = 1000;
-    	double perc_i = 500;
-    	double vlr_d;
-    	double vlr_i;
-    	double p_final;
-    	
-    	vlr_d = p_fab * perc_d / 100;
-    	vlr_i = p_fab * perc_i / 100;
-    	p_final = p_fab + vlr_d + vlr_d;
-    	
-    	System.out.println("O lucro do distribuidor é: " + vlr_d);
-    	System.out.println("valor correspondente aos impostos: " + vlr_i);
-    	System.out.println("Preço final do veículo: " + p_final);
+		double horas_t = 8;
+		double salario = 1500;
+		
+		double valor_hora_t = salario / 2;
+		double salario_b = valor_hora_t * horas_t;
+		double imposto = salario_b * 0.03;
+		double salario_final = salario_b - imposto;
+		System.out.println("O valor da hora trabalhada é: " + valor_hora_t);
+        System.out.println("O valor do salário bruto é: " + salario_b);
+        System.out.println("O valor do imposto é: " + imposto);
+        System.out.println("O valor do salário final é: " + salario_final);
 	}
 
 }
