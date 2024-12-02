@@ -1,8 +1,9 @@
-package br.edu.principal;
+package edu.br.principal;
 
-public class Principal {
+public class principal {
 
 	public static void main(String[] args) {
+		
 		int[] num = {5, -2, 8, -4, 7, -1, 0, 3};
 		int[] pos = new int[8];
 		int[] neg = new int[8];
@@ -41,7 +42,6 @@ public class Principal {
 		    }
 		    System.out.println();
 		}
-
 
 
 	}
