@@ -1,6 +1,6 @@
 package br.edu.principal;
 
-public class Questao3 {
+public class principal {
 
 	public static void main(String[] args) {
 		int[] vet1 = {3, 5, 4, 3, 2, 5, 3, 2, 5, 9};
@@ -23,3 +23,4 @@ public class Questao3 {
 	}
 
 }
+
